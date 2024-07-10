@@ -1,17 +1,48 @@
-# Parking space counter created using OpenCV and Python
+# Parking Space Counter
 
-![parking_space_counter](https://user-images.githubusercontent.com/72137556/164909493-ad13efb6-6997-41de-bc1c-168c11b2532b.png)
+This repository contains the source code and LaTeX documentation for a parking space counter developed using Python, OpenCV, and the face_recognition library. The project aims to automate the monitoring and counting of parking spaces in urban environments.
 
-## Result:
-https://youtu.be/LERHWFmSSdM
+## Features
 
-## Video used in the code:
-Tom Berrigan
-https://www.youtube.com/watch?v=yojapmOkIfg&list=LL&index=10
+- **Object Detection**: Utilizes computer vision techniques to detect vehicles within designated parking areas.
+- **Real-time Monitoring**: Provides real-time updates on parking space occupancy status.
+- **Interactive User Interface**: Includes a user-friendly interface for visualizing parking availability.
+- **Performance Evaluation**: Evaluates system performance metrics such as accuracy and processing speed.
 
-Download this video in 1080p, rename it to parking.mp4 and place it in an input folder, and you are good to run the parking_space_counter.py.
+## Contents
+
+- **`parking_space_counter.py`**: Python script for counting parking spots in video streams.
+- **`parking_space_picker.py`**: Python script for selecting parking spaces from an image.
+- **`park_positions.pkl`**: Pickle file storing parking space coordinates.
+- **`main.tex`**: LaTeX documentation containing project report, including Introduction, Methodology, Implementation, Results, and Conclusion sections.
+
+## Installation
+
+1. **Clone the Repository:**
+'''bash
+git clone https://github.com/Chirag-0703/parking-space-counter.git
+cd parking-space-counter
 
 
-## The code is inspired by: 
-Murtaza's Workshop - Robotics and AI
-https://www.youtube.com/watch?v=caKnQlCMIYI
+2. **Install Dependencies:**
+- Python 3.x
+- OpenCV
+- face_recognition library
+- LaTeX (for compiling documentation)
+
+3. **Run Scripts:**
+- Execute `parking_space_picker.py` to select parking spaces from an image.
+- Run `parking_space_counter.py` to count parking spots in a video stream.
+
+## Documentation
+
+
+[Download PDF](/Documentation.pdf)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contributors
+
+- [Chirag S](https://github.com/chirag-0703)
